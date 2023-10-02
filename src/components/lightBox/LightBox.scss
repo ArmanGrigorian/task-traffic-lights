@@ -1,0 +1,24 @@
+.lightBox {
+   margin-inline: auto;
+   padding: 10px;
+   width: 140px;
+   background-color: grey;
+   text-align: center;
+   opacity: 0.8;
+   border-radius: 10px;
+
+   button {
+      all: unset;
+      margin-top: 10px;
+      padding: 2px 8px;
+      height: 20px;
+      font-size: 12px;
+      border-radius: 10px;
+      border: 1px solid black;
+      transition: scale 200ms linear;
+
+      &:active{
+         scale: 0.90;
+      }
+   }
+}
